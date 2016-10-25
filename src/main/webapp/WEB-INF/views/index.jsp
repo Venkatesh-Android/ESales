@@ -7,7 +7,10 @@
 
 <head>
 <c:import url="/head-meta"/>
-	<link rel="stylesheet" href="res/css/custom.css">
+	<link rel="stylesheet" href="resources/references/css/custom.css">
+	<link rel="stylesheet" href="resources/references/css/font-awesome.min.css">
+		<link rel="stylesheet" href="resources/references/css/bootstrap.min.css">
+	
 
 
 
@@ -105,6 +108,11 @@
 						<p class="text-center">*T & C Apply</p>
 		</div> <!--jumbotron_ends-->
 	</div> <!--jumbotron-->
+	
+	<br></br>
+	
+	 
+
 </div> <!--class contents ends here-->
    	<div style="
                     color: #000000;
