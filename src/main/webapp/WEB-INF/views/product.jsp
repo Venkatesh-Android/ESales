@@ -9,7 +9,7 @@
     <c:import url="/head-meta"></c:import>
     
     </head>
-    <body style=" background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg); ">
+    <body style=" background-image: url(${pageContext.request.contextPath}/resources/images/PrdsBG.jpg); ">
     <c:import url="/head"></c:import>
     
     <body id="d" style bgcolor="aqua">
