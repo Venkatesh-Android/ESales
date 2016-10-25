@@ -22,7 +22,7 @@
 
 
 
- 	<div class="container">
+ 	<div class="container"> <!--Page contents starts here-->
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -77,10 +77,35 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
-</div>
+  </div> <!--Carousel ends here-->
+
       
 <br>
+
+<div class="row"> <!--jumbotron starts here-->
+		
+	<div class="jumbotron"> <!--jumbotron_starts_Circle_hides_in_xs-->
+			<img class="pull-right img-circle hidden-xs"  src="resources/images/Logo/Apple.png" alt="Lets give it a try">
+
+			<h2>Diwali's Apple Deal...</h2>
+						<p>APPLE deal starts @ 12:00_Am on November 27th</p>
+						<p class="text-center">Deals will be GO till stocks lasts...</p>
+						<p class="text-center"><a class="btn btn-danger btn-md" href="#">Read More>></a></p>
+						<p class="text-center">*T & C Apply</p>
+		</div> <!--jumbotron_ends-->
+
+		
+	<div class="jumbotron"> <!--jumbotron_starts_Circle_hides_in_xs-->
+			<img class="pull-right img-circle hidden-xs"  src="resources/images/Logo/Android.png" alt="Lets give it a try">
+
+			<h2>Diwali's Android Deal</h2>
+						<p>ANDROID deal starts @ 12:00_Am on November 28th</p>
+						<p class="text-center">Kindly Pre_Register to get notifiyed when Sales Begin...</p>
+						<p class="text-center"><a class="btn  btn-primary btn-md" href="#">Pre_Register</a></p>
+						<p class="text-center">*T & C Apply</p>
+		</div> <!--jumbotron_ends-->
+	</div> <!--jumbotron-->
+</div> <!--class contents ends here-->
    	<div style="
                     color: #000000;
                     text-align: center;
