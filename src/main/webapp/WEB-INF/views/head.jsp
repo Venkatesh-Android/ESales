@@ -13,21 +13,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/trendz">Trendz</a>
+      <a class="navbar-brand" href="/trendz">E-Commerce</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Product <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="${pageContext.request.contextPath}/product">shirt</a></li>
-            <li><a href="${pageContext.request.contextPath}/product?search=T-Shirt">tshirt</a></li>
-            <li><a href="${pageContext.request.contextPath}/product?search=Trousers"></a></li>
+            <li><a href="${pageContext.request.contextPath}/product">Apple</a></li>
+            <li><a href="${pageContext.request.contextPath}/product?search=T-Shirt">Android</a></li>
+          
           </ul>
         </li>
-        <li><a href="${pageContext.request.contextPath}/Contact Us"></a></li>
-        <li><a href="${pageContext.request.contextPath}/About Us"> </a></li>
+       
        <%
     					if (request.isUserInRole("ADMIN"))
     						{
@@ -75,5 +74,5 @@
 		
 <footer style="position: fixed; bottom: 0px; width: 100%; 
 background-color: #000000; color: #FFFFFF; text-align: center; height: 25px; z-index:200";>
-&copy; Gtm Rockz
+&copy; E-Commerce 
 </footer>

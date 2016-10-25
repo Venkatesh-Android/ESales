@@ -13,7 +13,7 @@
 
 </head>
 
-<body style=" background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg); ">
+<body style=" background-image: url(${pageContext.request.contextPath}/resources/images/bgImage.jpg); ">
 
 <c:import url="/head"/>
 
@@ -29,18 +29,40 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+      <li data-target="#myCarousel" data-slide-to="9"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="${pageContext.request.contextPath}/resources/images/1.jpg" alt="1" width="460" height="200">
+        <img src="${pageContext.request.contextPath}/resources/images/a1.jpg" alt="1" width="600" height="400">
       </div>
 	  <div class="item">
-        <img src="${pageContext.request.contextPath}/resources/images/2.jpg" alt="2" width="460" height="200">
+        <img src="${pageContext.request.contextPath}/resources/images/b1.png" alt="2" width="600" height="400">
       </div>
 	  <div class="item">
-        <img src="${pageContext.request.contextPath}/resources/images/3.jpg" alt="3" width="460" height="200">
+        <img src="${pageContext.request.contextPath}/resources/images/a2.jpg" alt="3" width="600" height="400">
+      </div>
+      <div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/images/b2.png" alt="1" width="600" height="400">
+      </div><div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/images/c1.png" alt="1" width="600" height="400">
+      </div><div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/images/d1.png" alt="1" width="600" height="400">
+      </div><div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/images/a3.jpg" alt="1" width="600" height="400">
+      </div>
+      <div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/images/b3.png" alt="1" width="600" height="400">
+      </div><div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/images/a4.jpg" alt="1" width="600" height="400">
+      </div><div class="item active">
+        <img src="${pageContext.request.contextPath}/resources/images/b4.jpg" alt="1" width="600" height="400">
       </div>
 	  </div>
 <!-- Left and right controls -->
@@ -70,28 +92,7 @@
                     
       				
                 " class="container-fluid carousel slide" >
-                <div class="row">
-                <br>
-                <br>
-	                <div class="col-md-4">
-		                <a href="product?searchKey=Beds" ><div class="img-circle img-responsive nopadding center_img" style="background-image: url(resources/images/7.jpg); background-size: 280px 220px; width: 280px ; height: 220px;" > <a align="center" href="product?searchKey=tshirt" style="line-height: 340px; font-size: 140%; background-color: #CCCCCC;" >&nbsp; Tshirt &nbsp;</a> </div></a>
-		                <br><br>
-		                <p style="font-weight: none; font-size: 12px; font-style: none; line-height: 20px;">Tshirt makes your life more comfortable</p>
-	                </div>
-	                
-	                <div class="col-md-4">
-		                <a href="product?searchKey=Book+Shelves" ><div class="img-circle img-responsive nopadding center_img" style="background-image: url(resources/images/6.jpg); background-size: 280px 220px;background-repeat: no-repeat;width: 280px ; height: 220px;" > <a align="center" href="product?searchKey=shirt" style="line-height: 340px; font-size: 140%; background-color: #CCCCCC;" >&nbsp;Shirt&nbsp;</a> </div></a>
-		                <br><br>
-		                <p style="font-weight: none; font-size: 12px; font-style: none; line-height: 20px;">Variety of shirts makes you really satisfied</p>
-	                </div>
-	                
-	                <div class="col-md-4">
-		                <a href="product?searchKey=Sofas" ><div class="img-circle img-responsive nopadding center_img" style="background-image: url(resources/images/5.jpg); background-size: 280px 220px; width: 280px ; height: 220px;" > <a align="center" href="product?searchKey=trouser" style="line-height: 340px; font-size: 140%;background-color: #CCCCCC;" > &nbsp;Trousers&nbsp; </a> </div></a>
-		                <br><br>
-		                <p style="font-weight: none; font-size: 12px; font-style: none; line-height: 20px;">Enjoy with the collection of trousers</p>
-	                </div>
-                
-                </div>
+        
                 
                 
                 <br><br>
