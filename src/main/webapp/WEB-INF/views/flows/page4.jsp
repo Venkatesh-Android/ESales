@@ -7,6 +7,7 @@
     
     <head>
     <c:import url="/head-meta"></c:import>
+    	<link rel="stylesheet" href="resources/references/css/bootstrap.min.css">
     <style>
  	body {
    background: url(resources/image/thankyou.jpg) no-repeat center center fixed; 
@@ -14,6 +15,10 @@
 #xyz{position:relative;}
  </style>
     </head>
+    
+     <br><br>
+    <br><br>
+    <br><br>
     
     <script type="text/javascript">
 'use strict';
@@ -25,7 +30,7 @@
     	return {
          
     		deleteAllFromCart: function(item){
-                    return $http.post('http://localhost:8081/trendz/flows/deleteAllFromCart/', item)
+                    return $http.post('http://localhost:8081/ESales/flows/deleteAllFromCart/', item)
                             .then(
                                     function(response){
                                         return response.data;
@@ -51,7 +56,7 @@
 </script>
     <c:import url="/head"></c:import>
     <body ng-app="myApp" ng-controller="page4">
-    
+    .
     <br><br><br><br><br>
 <div class="container">
   <a href="${pageContext.request.contextPath}/index" class="btn btn-success btn-lg btn pull-left">

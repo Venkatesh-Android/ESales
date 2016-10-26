@@ -7,8 +7,8 @@
 
 <head>
 <c:import url="/head-meta"/>
-	<link rel="stylesheet" href="resources/references/css/custom.css">
-	<link rel="stylesheet" href="resources/references/css/font-awesome.min.css">
+<!-- 	<link rel="stylesheet" href="resources/references/css/custom.css">
+ -->	<link rel="stylesheet" href="resources/references/css/font-awesome.min.css">
 		<link rel="stylesheet" href="resources/references/css/bootstrap.min.css">
 	
 
@@ -91,7 +91,7 @@
 			<img class="pull-right img-circle hidden-xs"  src="resources/images/Logo/Apple.png" alt="Lets give it a try">
 
 			<h2>Diwali's Apple Deal...</h2>
-						<p>APPLE deal starts @ 12:00_Am on November 27th</p>
+						<p class="text-center">Kindly Pre_Register to get notifiyed when Sales Begin...</p>
 						<p class="text-center">Deals will be GO till stocks lasts...</p>
 						<p class="text-center"><a class="btn btn-danger btn-md" href="#">Read More>></a></p>
 						<p class="text-center">*T & C Apply</p>
@@ -102,7 +102,7 @@
 			<img class="pull-right img-circle hidden-xs"  src="resources/images/Logo/Android.png" alt="Lets give it a try">
 
 			<h2>Diwali's Android Deal</h2>
-						<p>ANDROID deal starts @ 12:00_Am on November 28th</p>
+						<p class="text-center">ANDROID deal starts @ 12:00_Am on November 28th</p>
 						<p class="text-center">Kindly Pre_Register to get notifiyed when Sales Begin...</p>
 						<p class="text-center"><a class="btn  btn-primary btn-md" href="#">Pre_Register</a></p>
 						<p class="text-center">*T & C Apply</p>
@@ -139,7 +139,7 @@
   	
  	
 
- 	
+
 
 
 

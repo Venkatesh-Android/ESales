@@ -31,10 +31,12 @@
 						<p>${error}</p>
 					</div>
 				</c:if>
-<body style=" background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg); ">
+<body style=" background-image: url(${pageContext.request.contextPath}/resources/images/lightBG.jpg); ">
 				<form:form action="AddUser" method="POST" modelAttribute="User">
 					<table style="width: 80%;" class="table center">
-						
+						<br><br>
+						<br><br>
+						<br>
 						<tr>
 							<td><form:label path="username" for="username">Username:</form:label></td>
 							<td><form:input path="username" type="text" autofocus="true"

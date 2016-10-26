@@ -7,9 +7,13 @@
     
     <head>
     <c:import url="/head-meta"></c:import>
-    
+    	<link rel="stylesheet" href="resources/references/css/bootstrap.min.css">
     </head>
     <c:import url="/head"></c:import>
+    
+     <br><br>
+    <br><br>
+    <br><br>
     
     <script type="text/javascript">
     
@@ -20,7 +24,7 @@
                                   return {
                                    
                                       deleteFromCart: function(item){
-                                              return $http.post('http://localhost:8081/trendzflows/deleteFromCart/', item)
+                                              return $http.post('http://localhost:8081/ESales/deleteFromCart/', item)
                                                       .then(
                                                               function(response){
                                                                   return response.data;
@@ -32,7 +36,7 @@
                                                       );
                                       },
                                               fetchAllItems: function(item){
-                                                  return $http.post('http://localhost:8081/trendz/flows/fetchAllItems/')
+                                                  return $http.post('http://localhost:8081/ESales/flows/fetchAllItems/')
                                                           .then(
                                                                   function(response){
                                                                       return response.data;
@@ -127,14 +131,14 @@
     
     </script>
     
-    <body ng-app="myApp" ng-controller="page1" style=" background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg); ">
+    <body ng-app="myApp" ng-controller="page1" style=" background-image: url(${pageContext.request.contextPath}/resources/images/prdsBG.jpg); ">
     
     <br><br><br><br><br>
 <div class="container">
-  <a href="${flowExecutionUrl}&_eventId=goToCheckout" class="btn btn-primary btn-lg btn pull-right">Current Cart
-  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <a href="${flowExecutionUrl}&_eventId=goToCheckout" class="btn btn-primary btn-lg btn pull-right">Next
+  <span class="glyphicon glyphicon-arrow-right"></span></a>
   <a href="${pageContext.request.contextPath}/product" class="btn btn-success btn-lg btn pull-left">
-  <span class="glyphicon glyphicon-chevron-left"></span>Back to Products</a>
+  <span class="glyphicon glyphicon-arrow-left"></span>Back</a>
   </div>
 <br>
 

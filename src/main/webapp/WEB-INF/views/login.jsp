@@ -8,18 +8,7 @@
 <head>
 	<c:import url="/head-meta"/>
 	<link rel="stylesheet" href="resources/references/css/bootstrap.min.css">
-<style>
-.body{
-background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg);
-}
-</style>	
 
-
-
-
-	
-	
-	
 	<style>
 		.center
 		{
@@ -46,7 +35,7 @@ background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg
 	
 </head>
 
-<body style=" background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg); ">
+<body style=" background-image: url(${pageContext.request.contextPath}/resources/images/lightBG.jpg); ">
 
 	<script type="text/javascript" src="resources/references/js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="resources/references/js/bootstrap.min.js"></script>

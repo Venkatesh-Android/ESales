@@ -7,12 +7,7 @@ xsi:schemaLocation=
 http://www.springframework.org/schema/webflow/spring-webflow.xsd">
  
 	<var name="cart" class="com.ESales.cont.JspController" />
- 	
- 	
- 	
- 	<!-- <var name="deleteItem" class="com.E-ComSales.model.Item" />
- 	 -->
- 	 
+
  	 
  	<action-state id="addCartToOrder">
         <evaluate expression="cart.test()" result="cart" />

@@ -7,9 +7,14 @@
     
     <head>
     <c:import url="/head-meta"></c:import>
+    	<link rel="stylesheet" href="resources/references/css/bootstrap.min.css">
     
     </head>
     <c:import url="/head"></c:import>
+    
+     <br><br>
+    <br><br>
+    <br><br>
     
     <script type="text/javascript">
 'use strict';
@@ -22,7 +27,7 @@
     return {
     	
     	fetchAllItems: function(){
-                return $http.post('http://localhost:8081/trendz/flows/fetchAllItems/')
+                return $http.post('http://localhost:8081/ESales/flows/fetchAllItems/')
                         .then(
                                 function(response){
                                     return response.data;
@@ -90,14 +95,14 @@
 	
 </script>
     
-    <body ng-app="myApp" ng-controller="page3" style=" background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg); ">
+    <body ng-app="myApp" ng-controller="page3" style=" background-image: url(${pageContext.request.contextPath}/resources/images/prdsBG.jpg); ">
     
     <br><br><br><br><br>
 <div class="container">
-  <a href="${flowExecutionUrl}&_eventId=ConfirmOrder" class="btn btn-primary btn-lg btn pull-right">Confirm Order
-  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <a href="${flowExecutionUrl}&_eventId=ConfirmOrder" class="btn btn-primary btn-lg btn pull-right">Place Order
+  <span class="glyphicon glyphicon-arrow-right"></span></a>
   <a href="${flowExecutionUrl}&_eventId=BackToConfirmDetails" class="btn btn-success btn-lg btn pull-left">
-  <span class="glyphicon glyphicon-chevron-left"></span>Back To Confirm Details</a>
+  <span class="glyphicon glyphicon-arrow-left"></span>Verify</a>
   </div>
 <br>
     

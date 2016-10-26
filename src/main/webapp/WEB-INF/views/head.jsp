@@ -5,21 +5,30 @@
    
    
     <html>
-    <link rel="stylesheet" href="resources/references/css/font-awesome.min.css">
+   <head>
+
+	<link rel="stylesheet" href="resources/references/css/custom.css">
+	<link rel="stylesheet" href="resources/references/css/font-awesome.min.css">
 		<link rel="stylesheet" href="resources/references/css/bootstrap.min.css">
-<nav class="navbar navbar-inverse">
+
+</head>
+	
+	
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+        
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+      
       </button>
-      <a class="navbar-brand" href="index">E-Commerce<i class="fa fa-mouse-pointer fa-lg" aria-hidden="true"></i> </a>
+      <a class="navbar-brand" href="index">E-Commerce <span class="glyphicon glyphicon-send"></span> </a>
     </div>
-    <div class="collapse navbar-collapse" id="navbar">
+    <div class="collapse navbar-collapse" id="collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index">Home </a></li>
+        <li ><a href="index">Home <span class="glyphicon glyphicon-home"></span></a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Product <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -56,13 +65,13 @@
 	      				<c:choose>
 	      					<c:when test="${not empty pageContext.request.userPrincipal}">
 	      						<li><span style="position: absolute; top: -5px; right: 5px; color: #FFFFFF;">${pageContext.request.userPrincipal.name}</span></li>
-	      						<li><a href="${pageContext.request.contextPath}/logout">Log Out<i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></a></li>
+	      						<li><a href="${pageContext.request.contextPath}/logout">Log Out <span class="glyphicon glyphicon-log-out"></span></a></li>
 	      						
 	      					</c:when>
 	      					
 	      					<c:otherwise>
-	      						<li><a href="${pageContext.request.contextPath}/loginpage">Login<i class="fa fa-sign-in fa-lg" aria-hidden="true"></i></a></li>
-				        		<li><a href="${pageContext.request.contextPath}/signup">Sign Up<i class="fa fa-sign-up fa-lg" aria-hidden="true"></i></a></li>
+	      						<li><a href="${pageContext.request.contextPath}/loginpage">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
+				        		<li><a href="${pageContext.request.contextPath}/signup">Sign Up </a></li>
 				        		${isAdmin}
 	      					</c:otherwise>
 	      				</c:choose>
@@ -72,8 +81,9 @@
 			        </ul>
     </div>
   </div>
+   <!-- container fluid ends here -->
+   
 </nav>
-
 
 		
 <footer style="position: fixed; bottom: 0px; width: 100%; 

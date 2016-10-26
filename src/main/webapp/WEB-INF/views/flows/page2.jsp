@@ -7,8 +7,13 @@
     
     <head>
     <c:import url="/head-meta"></c:import>
+    	<link rel="stylesheet" href="resources/references/css/bootstrap.min.css">
     </head>
     <c:import url="/head"></c:import>
+    
+     <br><br>
+    <br><br>
+    <br><br>
     
     <script type="text/javascript">
 'use strict';
@@ -19,7 +24,7 @@
 	 
     	return {
     		getUserAddress: function(){
-                return $http.post('http://localhost:8081/trendz/flows/getUserAddress/')
+                return $http.post('http://localhost:8081/ESales/flows/getUserAddress/')
                         .then(
                                 function(response){
                                     return response.data;
@@ -32,7 +37,7 @@
         }
     		,
             updateAddresses: function(item){
-                    return $http.post('http://localhost:8081/trendz/flows/updateAddresses/', item)
+                    return $http.post('http://localhost:8081/ESales/flows/updateAddresses/', item)
                             .then(
                                     function(response){
                                         return response.data;
@@ -110,13 +115,13 @@
 	
 </script>
     
-    <body ng-app="myApp" ng-controller="page2"  style=" background-image: url(${pageContext.request.contextPath}/resources/images/bg.jpg); ">
+    <body ng-app="myApp" ng-controller="page2"  style=" background-image: url(${pageContext.request.contextPath}/resources/images/prdsBG.jpg); ">
      <br><br><br><br><br>
 <div class="container">
-  <a href="${flowExecutionUrl}&_eventId=ViewCompleteOrder" class="btn btn-primary btn-lg btn pull-right">View Complete Order
-  <span class="glyphicon glyphicon-chevron-right"></span></a>
+  <a href="${flowExecutionUrl}&_eventId=ViewCompleteOrder" class="btn btn-primary btn-lg btn pull-right">Total Order
+  <span class="glyphicon glyphicon-arrow-right"></span></a>
   <a href="${flowExecutionUrl}&_eventId=BackToCart" class="btn btn-success btn-lg btn pull-left">
-  <span class="glyphicon glyphicon-chevron-left"></span>Back To Cart</a>
+  <span class="glyphicon glyphicon-arrow-left"></span>Back</a>
   </div>
 <br>
 
